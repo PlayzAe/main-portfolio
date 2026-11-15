@@ -1,0 +1,54 @@
+# Dependencies and build output
+node_modules/
+dist/
+dist-ssr/
+.vite/
+coverage/
+
+# Env and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local tooling and notes
+.claude/
+.agent/
+.agents/
+.cursor/
+.windsurf/
+.codex/
+.gemini/
+.aider*
+.continue/
+.copilot/
+.mcp.json
+CLAUDE.md
+AGENTS.md
+GEMINI.md
+skills/
+skills-lock.json
+ai_design_prompts/
+references/
+case-studies/
+_archive/
+scratch*
+preview.html
+scripts/sync-preview.cjs
+scripts/verify-start-bat.ps1
+
+# Archives
+*.rar
+*.zip
+*.7z

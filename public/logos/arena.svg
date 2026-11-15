@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="96" fill="#1a1f1e"/>
+  <!-- Column bars (signal/colosseum) -->
+  <g transform="translate(256, 180)">
+    <!-- 5 vertical bars, tallest in center -->
+    <rect x="-100" y="-60" width="24" height="110" rx="5" fill="#F4F0EB"/>
+    <rect x="-52"  y="-100" width="24" height="150" rx="5" fill="#F4F0EB"/>
+    <rect x="-12"  y="-130" width="24" height="180" rx="5" fill="#F4F0EB"/>
+    <rect x="28"   y="-100" width="24" height="150" rx="5" fill="#F4F0EB"/>
+    <rect x="76"   y="-60" width="24" height="110" rx="5" fill="#F4F0EB"/>
+    <!-- Base line -->
+    <line x1="-110" y1="55" x2="110" y2="55" stroke="#F4F0EB" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <!-- Green accent square -->
+  <rect x="244" y="310" width="14" height="14" rx="2" fill="#34d399"/>
+  <!-- ARENA text -->
+  <text x="256" y="356" text-anchor="middle" fill="#F4F0EB" font-family="system-ui,-apple-system,sans-serif" font-size="42" font-weight="700" letter-spacing="6">ARENA</text>
+  <!-- CLI subtitle -->
+  <text x="256" y="388" text-anchor="middle" fill="#9db6a0" font-family="system-ui,-apple-system,sans-serif" font-size="22" font-weight="500" letter-spacing="8">CLI</text>
+</svg>
